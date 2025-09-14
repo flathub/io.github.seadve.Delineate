@@ -1,7 +1,7 @@
 {
     "id": "io.github.seadve.Delineate",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "47",
+    "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable",
@@ -9,10 +9,10 @@
     ],
     "command": "delineate",
     "finish-args": [
+        "--device=dri",
         "--share=ipc",
         "--socket=fallback-x11",
-        "--socket=wayland",
-        "--device=dri"
+        "--socket=wayland"
     ],
     "build-options": {
         "append-path": "/usr/lib/sdk/rust-stable/bin"
@@ -46,8 +46,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/SeaDve/Delineate/releases/download/v0.1.0/delineate-0.1.0.tar.xz",
-                    "sha256": "05f8da7d841952e3ecc93e8a63ff5ea2f51de9850aff1d79b182170976b79776",
+                    "url": "https://github.com/SeaDve/Delineate/releases/download/v0.1.1/delineate-0.1.1.tar.xz",
+                    "sha256": "fe346483f74c9fcf21a1a81700b394f7088aa960fdd90962a7474511ecdff424",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/SeaDve/Delineate/releases/latest",
