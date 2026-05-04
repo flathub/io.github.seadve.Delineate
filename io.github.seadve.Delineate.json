@@ -55,6 +55,10 @@
                         "version-query": ".tag_name | sub(\"^v\"; \"\")",
                         "url-query": ".assets[] | select(.name==\"delineate-\" + $version + \".tar.xz\") | .browser_download_url"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "fix-JPEG-export.patch"
                 }
             ]
         }
