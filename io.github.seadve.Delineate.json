@@ -46,8 +46,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/SeaDve/Delineate/releases/download/v0.1.1/delineate-0.1.1.tar.xz",
-                    "sha256": "fe346483f74c9fcf21a1a81700b394f7088aa960fdd90962a7474511ecdff424",
+                    "url": "https://github.com/SeaDve/Delineate/releases/download/v0.1.2/delineate-0.1.2.tar.xz",
+                    "sha256": "3bffc3bd6ff0096e9372ebabe3149ffdb503484dc2443d099affb6a8da9efe69",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/SeaDve/Delineate/releases/latest",
